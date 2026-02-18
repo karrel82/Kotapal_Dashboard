@@ -3385,8 +3385,11 @@
         }
         #dashboard-view .block-carousel-slides { display: flex; flex-wrap: nowrap; gap: 12px; align-items: center; padding: 8px 0; min-height: 120px; animation: blockCarouselScroll 12s linear infinite; }
         #dashboard-view .block-carousel-slide { flex: 0 0 auto; display: flex; align-items: center; justify-content: center; min-width: 80px; }
-        #dashboard-view .block-carousel-slide img { max-height: 100px; max-width: 100px; width: auto; height: auto; object-fit: contain; cursor: pointer; border-radius: 6px; transition: opacity 0.2s ease; }
-        #dashboard-view .block-carousel-slide img:hover { opacity: 0.9; }
+        #dashboard-view .block-carousel-slide img { 
+            max-height: 100px; max-width: 100px; width: auto; height: auto; object-fit: contain; cursor: pointer; border-radius: 6px; transition: opacity 0.2s ease; }
+        #dashboard-view .block-carousel-slide img:hover { opacity: 0.95;
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); }
         /* Block image lightbox (gallery) */
         #blockImageLightbox {
             display: none; position: fixed; inset: 0; z-index: 10000; background: rgba(0,0,0,0.9);
